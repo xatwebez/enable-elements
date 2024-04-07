@@ -1,50 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Disabled Form</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Disabled Form Elements</title>
 </head>
 <body>
+    <h2>All Form Elements with Disabled Attribute</h2>
+    <form>
+        <fieldset>
+            <legend>Inputs</legend>
+            <label for="inputText">Text Input:</label>
+            <input type="text" id="inputText" name="inputText" disabled><br><br>
 
-<h2>Disabled Form</h2>
+            <label for="inputPassword">Password Input:</label>
+            <input type="password" id="inputPassword" name="inputPassword" disabled><br><br>
 
-<form id="myForm" action="/submit" method="post">
-  <label for="text">Text:</label><br>
-  <input type="text" id="text" name="text" disabled><br><br>
-  
-  <label for="email">Email:</label><br>
-  <input type="email" id="email" name="email" disabled><br><br>
-  
-  <label for="password">Password:</label><br>
-  <input type="password" id="password" name="password" disabled><br><br>
-  
-  <label for="number">Number:</label><br>
-  <input type="number" id="number" name="number" disabled><br><br>
-  
-  <label for="checkbox">Checkbox:</label>
-  <input type="checkbox" id="checkbox" name="checkbox" disabled><br><br>
-  
-  <label for="radio">Radio:</label><br>
-  <input type="radio" id="radio1" name="radio" value="option1" disabled>
-  <label for="radio1">Option 1</label><br>
-  <input type="radio" id="radio2" name="radio" value="option2" disabled>
-  <label for="radio2">Option 2</label><br><br>
-  
-  <label for="date">Date:</label><br>
-  <input type="date" id="date" name="date" disabled><br><br>
-  
-  <label for="select">Select:</label><br>
-  <select id="select" name="select" disabled>
-    <option value="option1">Option 1</option>
-    <option value="option2">Option 2</option>
-  </select><br><br>
-  
-  <label for="textarea">Textarea:</label><br>
-  <textarea id="textarea" name="textarea" rows="4" cols="50" disabled></textarea><br><br>
-  
-  <input type="submit" value="Submit" disabled>
-</form>
+            <label for="inputEmail">Email Input:</label>
+            <input type="email" id="inputEmail" name="inputEmail" disabled><br><br>
 
+            <label for="inputNumber">Number Input:</label>
+            <input type="number" id="inputNumber" name="inputNumber" disabled><br><br>
+
+            <label for="inputCheckbox">Checkbox:</label>
+            <input type="checkbox" id="inputCheckbox" name="inputCheckbox" disabled><br><br>
+
+            <label for="inputRadio">Radio Button:</label>
+            <input type="radio" id="inputRadio" name="inputRadio" value="radio1" disabled><br><br>
+        </fieldset>
+
+        <fieldset>
+            <legend>Select</legend>
+            <label for="selectElement">Select:</label>
+            <select id="selectElement" name="selectElement" disabled>
+                <option value="option1">Option 1</option>
+                <option value="option2">Option 2</option>
+                <option value="option3">Option 3</option>
+            </select><br><br>
+        </fieldset>
+
+        <fieldset>
+            <legend>Textarea</legend>
+            <label for="textareaElement">Textarea:</label><br>
+            <textarea id="textareaElement" name="textareaElement" rows="4" cols="50" disabled></textarea><br><br>
+        </fieldset>
+
+        <input type="submit" value="Submit" disabled>
+        <input type="reset" value="Reset" disabled>
+    </form>
 </body>
 </html>
