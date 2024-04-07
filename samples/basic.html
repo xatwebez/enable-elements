@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Disabled Form</title>
+</head>
+<body>
+
+<h2>Disabled Form</h2>
+
+<form id="myForm" action="/submit" method="post">
+  <label for="text">Text:</label><br>
+  <input type="text" id="text" name="text" disabled><br><br>
+  
+  <label for="email">Email:</label><br>
+  <input type="email" id="email" name="email" disabled><br><br>
+  
+  <label for="password">Password:</label><br>
+  <input type="password" id="password" name="password" disabled><br><br>
+  
+  <label for="number">Number:</label><br>
+  <input type="number" id="number" name="number" disabled><br><br>
+  
+  <label for="checkbox">Checkbox:</label>
+  <input type="checkbox" id="checkbox" name="checkbox" disabled><br><br>
+  
+  <label for="radio">Radio:</label><br>
+  <input type="radio" id="radio1" name="radio" value="option1" disabled>
+  <label for="radio1">Option 1</label><br>
+  <input type="radio" id="radio2" name="radio" value="option2" disabled>
+  <label for="radio2">Option 2</label><br><br>
+  
+  <label for="date">Date:</label><br>
+  <input type="date" id="date" name="date" disabled><br><br>
+  
+  <label for="select">Select:</label><br>
+  <select id="select" name="select" disabled>
+    <option value="option1">Option 1</option>
+    <option value="option2">Option 2</option>
+  </select><br><br>
+  
+  <label for="textarea">Textarea:</label><br>
+  <textarea id="textarea" name="textarea" rows="4" cols="50" disabled></textarea><br><br>
+  
+  <input type="submit" value="Submit" disabled>
+</form>
+
+</body>
+</html>
