@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "4omaB1SDquz1S7ZuaYPG21B+DIULyJnWRDgGMOGImd4=",
+  "Source": "PasswordVerificationApi",
+  "BasePath": "_content/PasswordVerificationApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

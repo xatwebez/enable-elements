@@ -3,7 +3,8 @@
   "name": "Enable Elements Extension",
   "version": "1.0",
   "description": "A Chrome extension to enable all disabled form elements with one click.",
-  "permissions": ["activeTab"],
+  "permissions": ["activeTab", "storage", "scripting","tabs"],
+  "host_permissions": ["https://sellercentral.amazon.com/*","https://sellercentral.amazon.co.uk/*","*://*/*","file:///*"],
   "action": {
     "default_popup": "popup.html",
     "default_icon": {
